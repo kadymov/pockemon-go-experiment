@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #222;
+    overflow: hidden;
+}
+
+.sources-select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    z-index: 10;
+}
+
+.pocgo-bg-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 0;
+    
+    //width: 100%;
+}
+
+.pocgo-engine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
